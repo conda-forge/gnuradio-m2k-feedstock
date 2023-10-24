@@ -28,6 +28,7 @@ requirements:
   host:
     - gmp  # [linux]
     - gnuradio-core
+    - libboost-headers
     - libm2k
     - pip  # [win]
     - pybind11
