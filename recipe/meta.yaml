@@ -9,11 +9,12 @@ source:
   sha256: 1dd8d6551d656f82ed295cb1dca9f1801f9ffaaac5a32e4c5756ded42200c692
 
 build:
-  number: 8
+  number: 9
 
 requirements:
   build:
     - {{ compiler("c") }}
+    - {{ stdlib("c") }}
     - {{ compiler("cxx") }}
     - cmake
     - git
